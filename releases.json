@@ -6,6 +6,47 @@
   "releases": [
     {
       "version": "0.1.1",
+      "platform": "android",
+      "prerelease": true,
+      "tag": "android-v0.1.1",
+      "android_signing": "debug-preview",
+      "source_commit": "427a70109f3e6a9b246605723039ccaffe036465",
+      "url": "https://github.com/Grails125/duanjuapp-releases/releases/tag/android-v0.1.1",
+      "assets": [
+        {
+          "name": "BUILD_METADATA.json",
+          "size": 2357,
+          "sha256": "e20d70864702147f448b623fd57bb60c3fb25e8a7df63f4e16033aeffcde986d",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/BUILD_METADATA.json"
+        },
+        {
+          "name": "duanjuhui-0.1.1-debug-signed-arm64-v8a.apk",
+          "size": 76755260,
+          "sha256": "594d648ce950f577da71f91b7fe876be5c199a5014f17e864d445d97eb9b517e",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-arm64-v8a.apk"
+        },
+        {
+          "name": "duanjuhui-0.1.1-debug-signed-armeabi-v7a.apk",
+          "size": 85598364,
+          "sha256": "d4baa520a79e455a7c31155bc715fa94f7fdb2ee77b5662ea474a7711443f494",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-armeabi-v7a.apk"
+        },
+        {
+          "name": "duanjuhui-0.1.1-debug-signed-x86_64.apk",
+          "size": 78585541,
+          "sha256": "1cbeb224cc6827e568ad01f1a3ccb2815be91db8c778bb87306c1ac9060c6e74",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-x86_64.apk"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 329,
+          "sha256": "4ad690da274e9657d7ee89928dca4674a30f79d94d44c0227b44b9a85129739e",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "version": "0.1.1",
       "platform": "windows-x64",
       "prerelease": true,
       "tag": "windows-v0.1.1",

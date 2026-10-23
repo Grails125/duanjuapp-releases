@@ -8,7 +8,9 @@
 
 ## 下载
 
-**推荐下载：0.1.1 · Windows x64 · 开发快照**
+**当前版本：0.1.1 · Windows x64 / Android · 开发快照**
+
+### Windows
 
 | 安装方式 | 下载 | 说明 |
 | --- | --- | --- |
@@ -17,7 +19,21 @@
 | 文件校验 | [SHA256SUMS.txt](https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/SHA256SUMS.txt) | 核对下载文件是否完整 |
 | 构建信息 | [BUILD_METADATA.json](https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/BUILD_METADATA.json) | 查看版本、构建来源与文件摘要 |
 
-需要其他版本时，请查看 [0.1.0](https://github.com/Grails125/duanjuapp-releases/releases/tag/windows-v0.1.0) 或[全部发布](https://github.com/Grails125/duanjuapp-releases/releases)。当前公开附件仅包含 Windows x64；Android、iOS 和其他架构暂无下载包。
+### Android
+
+需要 Android 8.0 或更新版本。一般手机优先选择 ARM64；32 位 ARM 设备选择 ARMv7，x86_64 设备或相应模拟器选择 x86_64。
+
+| 架构 | 下载 |
+| --- | --- |
+| ARM64（arm64-v8a） | [Android ARM64 APK](https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-arm64-v8a.apk) |
+| ARMv7（armeabi-v7a） | [Android ARMv7 APK](https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-armeabi-v7a.apk) |
+| x86_64 | [Android x86_64 APK](https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/duanjuhui-0.1.1-debug-signed-x86_64.apk) |
+| 文件校验 | [Android SHA256SUMS.txt](https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/SHA256SUMS.txt) |
+| 构建信息 | [Android BUILD_METADATA.json](https://github.com/Grails125/duanjuapp-releases/releases/download/android-v0.1.1/BUILD_METADATA.json) |
+
+**Android 包使用本次构建生成的临时测试签名，属于预发布版本。** APK 使用 Release 模式编译，包名为 `com.duanju.duanju_app`。它无法覆盖安装使用其他证书签名的版本；安装前请先备份需要保留的资料。临时签名不承诺与后续构建兼容升级。
+
+其他版本见 [Windows 0.1.0](https://github.com/Grails125/duanjuapp-releases/releases/tag/windows-v0.1.0) 或[全部发布](https://github.com/Grails125/duanjuapp-releases/releases)。iOS 暂无下载包。
 
 ## 功能
 
@@ -67,7 +83,7 @@
 
 ## 开始使用
 
-1. 下载 EXE，或将 ZIP 完整解压后启动客户端。
+1. Windows 下载 EXE，或将 ZIP 完整解压后启动；Android 下载对应架构的 APK，按系统提示安装后打开。
 2. 在发现页选择站源，浏览分类或搜索内容；选择视频后查看详情、选集并播放。
 3. 需要离线观看时，从内容菜单选择下载；竖屏可从设置进入下载管理。
 4. 需要用其他设备的浏览器访问时，在设置的数据同步分类开启局域网页面，按客户端显示的地址与配对流程连接。主机客户端需保持运行。
@@ -76,14 +92,16 @@
 
 ## 版本与验证
 
-发布文件沿用已验证安装包，EXE 与 ZIP 的 SHA-256 保持一致；构建信息仅保留适合公开的版本、来源提交和文件摘要。
+Windows 发布文件沿用已验证安装包，EXE 与 ZIP 的 SHA-256 均与原始发布一致；构建信息保留版本、来源提交和文件摘要。
 
 Windows 0.1.1 已通过包完整性、版本、更新协议、隔离冷／热启动及两种包的原生核心、媒体探测、转封装和本地合成视频播放检查。
+
+Android 0.1.1 三个架构包分别核验签名、包名、版本、原生架构、必需运行库和局域网页面资源，并提供 SHA-256 校验。尚未进行 Android 真机安装与播放验收。
 
 客户端目前为开发快照。真实站源、不同显卡驱动与跨设备使用仍需进一步验证；移动浏览器的物理手势、软键盘和全屏效果取决于浏览器支持情况。截图展示界面，不作为这些场景已经通过验收的证明。
 
 ## 问题反馈
 
-可在 [Issues](https://github.com/Grails125/duanjuapp-releases/issues) 反馈问题。请提供客户端版本、Windows 版本、操作步骤、预期结果和实际表现；涉及画面问题时可附截图。
+可在 [Issues](https://github.com/Grails125/duanjuapp-releases/issues) 反馈问题。请提供客户端版本、设备与系统版本、操作步骤、预期结果和实际表现；涉及画面问题时可附截图。
 
 提交前请移除账号、令牌、配对码、个人文件路径和带授权参数的播放地址。第三方组件的许可证随运行包提供。
