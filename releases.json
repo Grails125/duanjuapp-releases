@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "repository": "Grails125/duanjuapp-releases",
+  "recommended_version": "0.1.1",
+  "update_method": "manual-download",
+  "releases": [
+    {
+      "version": "0.1.1",
+      "platform": "windows-x64",
+      "prerelease": true,
+      "tag": "windows-v0.1.1",
+      "source_commit": "6d28a5685c1cc44f51d910e1e3040735afefd362",
+      "url": "https://github.com/Grails125/duanjuapp-releases/releases/tag/windows-v0.1.1",
+      "assets": [
+        {
+          "name": "BUILD_METADATA.json",
+          "size": 1185,
+          "sha256": "c6cf93d20d4ae838786f017de9afed9d5eeca7c3a99617c0b347f934c2ba45ce",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/BUILD_METADATA.json"
+        },
+        {
+          "name": "duanjuhui-0.1.1-windows-x64.exe",
+          "size": 142831177,
+          "sha256": "02cfc92f4b6baaec4594367bf9d7afe715d3d8c75e2d52d9c000c4b81bcf55c9",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/duanjuhui-0.1.1-windows-x64.exe"
+        },
+        {
+          "name": "duanjuhui-0.1.1-windows-x64.zip",
+          "size": 139574289,
+          "sha256": "35b8480a121f31cb7811d66267727e5ee3ae06e3bdeafd5e8ceecf8d6462b620",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/duanjuhui-0.1.1-windows-x64.zip"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 198,
+          "sha256": "04248800f3d3612989e48f762d93acded4ac9c2ea8f5a73153de41cf21b19e4f",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.1/SHA256SUMS.txt"
+        }
+      ]
+    },
+    {
+      "version": "0.1.0",
+      "platform": "windows-x64",
+      "prerelease": true,
+      "tag": "windows-v0.1.0",
+      "source_commit": "3e7e66d3a4b5fdcf459d035c2478930018d884ef",
+      "url": "https://github.com/Grails125/duanjuapp-releases/releases/tag/windows-v0.1.0",
+      "assets": [
+        {
+          "name": "BUILD_METADATA.json",
+          "size": 1185,
+          "sha256": "9325bef880ac067fe9719efa73a44185c343b60f8fb6969658c39517b8d7a542",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.0/BUILD_METADATA.json"
+        },
+        {
+          "name": "duanjuhui-0.1.0-windows-x64.exe",
+          "size": 142759270,
+          "sha256": "2107da4b1fb62c57d09fdf663ad9891e665d24ed520841a44a6452e023ed39c8",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.0/duanjuhui-0.1.0-windows-x64.exe"
+        },
+        {
+          "name": "duanjuhui-0.1.0-windows-x64.zip",
+          "size": 139502382,
+          "sha256": "66f9e8f783cb3d37c0ac99b228b2b231e5f95e2aa921282e546eb51655ce213c",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.0/duanjuhui-0.1.0-windows-x64.zip"
+        },
+        {
+          "name": "SHA256SUMS.txt",
+          "size": 198,
+          "sha256": "d088923f3654d4b18a475725ecb27a77560c706b0301535c4e894d86bad61494",
+          "url": "https://github.com/Grails125/duanjuapp-releases/releases/download/windows-v0.1.0/SHA256SUMS.txt"
+        }
+      ]
+    }
+  ]
+}
