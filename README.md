@@ -36,17 +36,15 @@
 
 ## 实际截图
 
-以下图片直接截取自 **Windows 0.1.1 源码运行的开发客户端**，使用实际应用页面和原生播放器。目录、用户和视频均为合成演示资料，站源图片与外部网络已禁用，因此封面显示占位图、播放器显示测试画面。图片未作界面重绘或效果合成。
-
-竖屏画面来自 Windows 窄窗口，用于展示响应式布局，不代表 Android / iPhone 真机效果。拍摄环境、尺寸和文件摘要见[截图信息](screenshots/metadata.json)。
+以下为用户提供的实际客户端截图，依次展示宽屏首页、播放器、下载管理、深色竖屏、浅色竖屏与设置。保留原图，未作界面重绘、裁剪或效果合成；尺寸和文件摘要见[截图信息](screenshots/metadata.json)。
 
 ### 宽屏浏览
 
-![Windows 宽屏发现页](screenshots/desktop-home.png)
+![深色宽屏首页](screenshots/desktop-home.png)
 
 ### 播放器
 
-![Windows 原生播放器播放本地合成视频](screenshots/desktop-player.png)
+![实际客户端播放器](screenshots/desktop-player.png)
 
 ### 下载管理
 
@@ -56,13 +54,13 @@
 
 <table>
   <tr>
-    <th>发现</th>
-    <th>深色主题</th>
+    <th>深色竖屏</th>
+    <th>浅色竖屏</th>
     <th>设置</th>
   </tr>
   <tr>
-    <td><img src="screenshots/portrait-home.png" width="260" alt="竖屏发现页"></td>
     <td><img src="screenshots/portrait-dark.png" width="260" alt="竖屏深色主题"></td>
+    <td><img src="screenshots/portrait-home.png" width="260" alt="竖屏浅色主题"></td>
     <td><img src="screenshots/portrait-settings.png" width="260" alt="竖屏设置及下载入口"></td>
   </tr>
 </table>

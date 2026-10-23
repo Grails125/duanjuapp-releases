@@ -1,108 +1,70 @@
 {
   "schema_version": 1,
-  "app_version": "0.1.1",
-  "platform": "Windows",
-  "build_mode": "debug",
-  "capture_kind": "Actual running client with synthetic fixtures",
-  "source_commit": "427a70109f3e6a9b246605723039ccaffe036465",
-  "release_source_commit": "6d28a5685c1cc44f51d910e1e3040735afefd362",
-  "production_code_matches_release": true,
-  "font_family": "DuanjuSans",
-  "synthetic_data": true,
-  "remote_source_images_disabled": true,
-  "network_attempts": 0,
-  "actual_mobile_device_capture": false,
-  "image_edits": "None; byte-identical copies of original captures",
+  "source": "User-provided actual client screenshots",
+  "supplied_on": "2026-10-23",
+  "capture_device": null,
+  "capture_app_version": null,
+  "image_edits": "None; byte-identical copies of the supplied images",
   "screenshots": [
     {
+      "order": 1,
       "file": "desktop-home.png",
-      "sha256": "241de0dab5177f2e01f450f389d0e4d66c94bab70c4b6cdd8332c99e9db651d5",
+      "sha256": "8e7b86675f47f11fb0567cd194b7569c29ab9107856b96bce64d202ecc8eaab0",
       "pixels": {
-        "width": 1266,
-        "height": 763
+        "width": 1898,
+        "height": 1024
       },
-      "viewport": {
-        "width": 1265.3333333333333,
-        "height": 762.6666666666666
-      },
-      "text_scale": 1.0,
-      "theme": "light",
-      "captured_at_utc": "2026-10-23T07:20:05.841799+00:00"
+      "theme": "dark"
     },
     {
+      "order": 2,
       "file": "desktop-player.png",
-      "sha256": "8122fd32479dc84928fc6f911ba4d4ad6f52f3bfb5960025eaae5002852ec9af",
+      "sha256": "01beb422c23545605039121ffd44b217df19b4d21251295091f15253d158693a",
       "pixels": {
-        "width": 1266,
-        "height": 763
+        "width": 1898,
+        "height": 1024
       },
-      "viewport": {
-        "width": 1265.3333333333333,
-        "height": 762.6666666666666
-      },
-      "text_scale": 1.0,
-      "theme": "light",
-      "captured_at_utc": "2026-10-23T07:18:42.255909+00:00"
+      "theme": "dark"
     },
     {
+      "order": 3,
       "file": "downloads.png",
-      "sha256": "17644a4ea2bd67a6077a23ca28c42d8b893915ff38d5740402841ed93bffe1dd",
+      "sha256": "669d3ab3e9b64da72fd33dc4568a5b739e48621360088420614aa854c026b916",
       "pixels": {
-        "width": 786,
-        "height": 963
+        "width": 1898,
+        "height": 1024
       },
-      "viewport": {
-        "width": 785.3333333333334,
-        "height": 962.6666666666666
-      },
-      "text_scale": 1.0,
-      "theme": "light",
-      "captured_at_utc": "2026-10-23T07:19:04.213099+00:00"
+      "theme": "dark"
     },
     {
-      "file": "portrait-home.png",
-      "sha256": "9237f3ea0497eeed15185a3d9d1d50549d66c903f72f0b5b96a22f33ee206263",
-      "pixels": {
-        "width": 376,
-        "height": 963
-      },
-      "viewport": {
-        "width": 375.3333333333333,
-        "height": 962.6666666666666
-      },
-      "text_scale": 1.0,
-      "theme": "light",
-      "captured_at_utc": "2026-10-23T07:18:29.237747+00:00"
-    },
-    {
+      "order": 4,
       "file": "portrait-dark.png",
-      "sha256": "49db3ad29cbae578f43b16231edcc2c9c9e82446de22c81abb5be78e524cb59d",
+      "sha256": "39d0342baca2b441415020c07c698c582e8ad63cbdd4069dc109f415a1c193d9",
       "pixels": {
-        "width": 376,
-        "height": 963
+        "width": 633,
+        "height": 1442
       },
-      "viewport": {
-        "width": 375.3333333333333,
-        "height": 962.6666666666666
-      },
-      "text_scale": 1.0,
-      "theme": "dark",
-      "captured_at_utc": "2026-10-23T07:19:15.046006+00:00"
+      "theme": "dark"
     },
     {
-      "file": "portrait-settings.png",
-      "sha256": "b97c936493319796b7a2f049fb425dad7b807be7f81d866e4b9092ab0cf61f2c",
+      "order": 5,
+      "file": "portrait-home.png",
+      "sha256": "ebe0be6b29120c6e36b0dfca96a30326dd87e3826e0b60b940280f0fcb6fed28",
       "pixels": {
-        "width": 376,
-        "height": 963
+        "width": 635,
+        "height": 1442
       },
-      "viewport": {
-        "width": 375.3333333333333,
-        "height": 962.6666666666666
+      "theme": "light"
+    },
+    {
+      "order": 6,
+      "file": "portrait-settings.png",
+      "sha256": "b19a1a077e96d6354af184d5a91dff083b3310e222f120926add08ddab95d3e1",
+      "pixels": {
+        "width": 633,
+        "height": 1437
       },
-      "text_scale": 1.0,
-      "theme": "light",
-      "captured_at_utc": "2026-10-23T07:18:32.809940+00:00"
+      "theme": "light"
     }
   ]
 }
